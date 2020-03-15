@@ -1,6 +1,5 @@
 language: node_js
 node_js:
   - "13.11.0"
-cache:
-  directory:
-    - "node_models"
+install:
+  - npm ci
