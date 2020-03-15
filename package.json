@@ -1,5 +1,6 @@
 {
   "name": "6ixProject-BOT",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +10,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint-fix": "eslint **/*.js --fix",
+    "lint": "eslint **/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Simoneu01/6ixProject-BOT.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Simone Ungaro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Simoneu01/6ixProject-BOT/issues"
