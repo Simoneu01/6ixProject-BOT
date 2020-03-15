@@ -12,7 +12,8 @@
   "scripts": {
     "lint-fix": "eslint **/*.js --fix",
     "lint": "eslint **/*.js",
-    "start": "node ."
+    "start": "node .",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
