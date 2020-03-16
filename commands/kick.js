@@ -4,7 +4,7 @@ module.exports = {
 	guildOnly: true,
 	execute(message) {
 		// se nessun utente viene menzionato nel messaggio
-    // ritorna un messaggio di errore
+		// ritorna un messaggio di errore
     if (!message.mentions.users.size) {
       return message.reply('you need to tag a user in order to kick them!');
     }
