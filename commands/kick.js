@@ -1,6 +1,7 @@
 module.exports = {
 	name: 'kick',
 	description: 'Tag a member and kick them (but not really).',
+	guildOnly: true,
 	execute(message) {
 		// se nessun utente viene menzionato nel messaggio
     // ritorna un messaggio di errore
