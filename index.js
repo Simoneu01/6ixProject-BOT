@@ -22,7 +22,8 @@ const callback = () => {
 
 server
   .listen(
-    80, 
+    80,
+    443,
     '127.0.0.1',
     callback
   )
